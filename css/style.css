@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background-color: #edeef0;
+
+}
+.background {
+
+  background-image: url(./../image/background.jpg);
+  margin: auto;
+  width: 1280px;
+  height: 1060px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.container {
+  background-color: #ffffff;
+  min-width: 1000px;
+  max-height: 990px;
+
+}
+
+.main_menu li {
+  display: inline-block;
+
+}
