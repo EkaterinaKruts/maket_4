@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #edeef0;
+  font-family: Tahoma, Verdana, sans-serif;
 
 }
 .background {
@@ -16,12 +17,36 @@ body {
 
 .container {
   background-color: #ffffff;
-  min-width: 1000px;
+  max-width: 1000px;
   max-height: 990px;
 
 }
+header, .contacts_inform a, .countries figcaption {
+  color: #128aa7;
+}
 
-.main_menu li {
+.main_menu li{
   display: inline-block;
 
+}
+
+.hidden_menu a{
+  display: none;
+
+}
+.countries a {
+  display: flex;
+}
+
+ .drop_down:hover .hidden_menu a {
+
+
+}
+.text_inform {
+  color: #424c43;
+}
+p, h1, div.inform_left, div.inform_right {
+  display: flex;
+  width: 210px;
+  
 }
