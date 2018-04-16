@@ -26,7 +26,7 @@ header, .contacts_inform a, .countries figcaption {
 }
 
 .main_menu li{
-  display: inline-block;
+  display: inline-flex;
 
 }
 
@@ -35,12 +35,15 @@ header, .contacts_inform a, .countries figcaption {
 
 }
 .countries a {
-  display: flex;
+  display: inline-flex;
 }
 
  .drop_down:hover .hidden_menu a {
+   display: flex;
+}
 
-
+main {
+  display: inline-flex;
 }
 .text_inform {
   color: #424c43;
@@ -48,5 +51,8 @@ header, .contacts_inform a, .countries figcaption {
 p, h1, div.inform_left, div.inform_right {
   display: flex;
   width: 210px;
-  
+
+}
+h1 {
+  font-size: 18pt;
 }
