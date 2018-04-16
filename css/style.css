@@ -21,11 +21,12 @@ body {
   max-height: 990px;
 
 }
-header, .contacts_inform a, .countries figcaption {
+header, .contacts_inform a, .countries a {
   color: #128aa7;
+  text-decoration: none;
 }
 
-.main_menu li{
+.main_menu li, .countries  li{
   display: inline-flex;
 
 }
@@ -34,8 +35,43 @@ header, .contacts_inform a, .countries figcaption {
   display: none;
 
 }
-.countries a {
-  display: inline-flex;
+
+
+.icon-Shri-Lanka {
+  background-image: url(./../image/sprite.png);
+  background-position: 0px 0px;
+  width: 42px;
+  height: 42px;
+}
+.icon-Tibet {
+  background-image: url(./../image/sprite.png);
+  background-position: -42px 0px;
+  width: 42px;
+  height: 42px;
+}
+.icon-bhutan {
+  background-image: url(./../image/sprite.png);
+  background-position: 0px -42px;
+  width: 42px;
+  height: 42px;
+}
+.icon-india {
+  background-image: url(./../image/sprite.png);
+  background-position: -42px -42px;
+  width: 42px;
+  height: 42px;
+}
+.icon-maldives {
+  background-image: url(./../image/sprite.png);
+  background-position: -84px 0px;
+  width: 42px;
+  height: 42px;
+}
+.icon-nepal {
+  background-image: url(./../image/sprite.png);
+  background-position: -84px -42px;
+  width: 42px;
+  height: 42px;
 }
 
  .drop_down:hover .hidden_menu a {
